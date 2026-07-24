@@ -98,7 +98,7 @@ app.post('/generate-code', async (req, res) => {
         }
 
         const response = await ai.models.generateContent({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-1.5-pro',
             contents: `Write clean and well-commented code in ${language} for the following requirement: ${prompt}. Only provide code without unnecessary conversational text.`
         });
 
