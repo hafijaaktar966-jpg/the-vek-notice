@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nexus coder/title>
+        <title>Nexus plus/title>
         <style>
             body { font-family: sans-serif; background: #0f172a; color: white; padding: 20px; max-width: 600px; margin: auto; }
             h2 { text-align: center; color: #38bdf8; }
@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
         </style>
     </head>
     <body>
-        <h2>⚡ nexus coder</h2>
+        <h2>⚡ nexus plus</h2>
         
         <label>Select Language:</label>
         <select id="language">
